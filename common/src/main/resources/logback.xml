@@ -10,4 +10,9 @@
   <root level="debug">
     <appender-ref ref="STDOUT" />
   </root>
+
+  <!-- Suppress INFO level log by quill-finagle-mysql -->
+  <logger name="io.getquill.FinagleMysqlContext" level="WARN">
+    <appender-ref ref="STDOUT" />
+  </logger>
 </configuration>
