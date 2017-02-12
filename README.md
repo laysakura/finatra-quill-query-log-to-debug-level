@@ -1,4 +1,4 @@
-# finatra-quill-query-log-to-debug-level
+# finatra-quill-suppress-query-log
 [![Build Status](https://travis-ci.org/laysakura/finatra-quill-query-log-to-debug-level.svg?branch=master)](https://travis-ci.org/laysakura/finatra-quill-query-log-to-debug-level)
 
 Demonstrates how to supress `quill-finagle-mysql`'s noisy query log.
